@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(52, 190, 235);
+    font-family: Arial;
+    text-align: center;
+    font-size: x-large;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(52,110,235);
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    font-size: xx-large;
+}
+
+li {
+    float: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(52,75,235);
+}
+
+h2{
+    text-decoration: underline;
+}
